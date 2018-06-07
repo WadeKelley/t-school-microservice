@@ -20,6 +20,8 @@ To complete this tutorial, you will need the following:
 ## Git clone
 `https://github.com/shettygit/t-school-microservice.git`
 
+If you are an IBMer use git repo `https://github.ibm.com/shetty/tschool-ms-assignment.git`
+
 ## Provision Cloudant Database in IBM Cloud
 
 * Login to your IBM Cloud console  
@@ -58,8 +60,8 @@ To complete this tutorial, you will need the following:
     ```
     $ ./gradlew build
     ```
-    If you get following error.
-    `If you get Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain`
+    If you get error.
+    `Could not find or load main class org.gradle.wrapper.GradleWrapperMain`
     Issue Command: 
     ```
     $ gradle wrapper
@@ -109,7 +111,7 @@ To complete this tutorial, you will need the following:
         }' 
         EOF
     ```
-If the POST request returns HTTP response 200 - OK, means the document is successfully inserted. Igonre the response message 'Unexpected d'. 
+You are good to go, if POST request returns HTTP response code 200. You can ignore the response message like *Syntax error* or *Unexpected 'd'*.
 
 To query the account that you just inserted use url http://localhost:8080/micro/account?accountId=14402
 
