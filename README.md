@@ -37,15 +37,12 @@ To complete this tutorial, you will need the following:
  "url": "https://xxxxx-bluemix.cloudant.com"
 }
 ```
-* Then, click the "Launch" button to open the Cloudant management console.   
-
+* Then, click the "Launch" button to open the Cloudant management console.  
+* Create a cloudant database
 * You can close the console now.
 
 ## Run the application locally:
-
-- Add a document into Cloudant database
-
-    Update the src/resources/application.yml file with the Cloudant credential:
+- Update the src/resources/application.yml file with the Cloudant credential:
 
     ```
     # Cloudant Configuration
