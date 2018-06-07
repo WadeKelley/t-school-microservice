@@ -20,7 +20,7 @@ To complete this tutorial, you will need the following:
 ## Git clone
 `https://github.com/shettygit/t-school-microservice.git`
 
-## Provision Cloudant Database in IBM Cloud:
+## Provision Cloudant Database in IBM Cloud
 
 * Login to your IBM Cloud console  
 * Open browser to create Cloudant Service using this link [https://new-console.ng.bluemix.net/catalog/services/cloudant-nosql-db](https://new-console.ng.bluemix.net/catalog/services/cloudant-nosql-db)  
@@ -41,7 +41,7 @@ To complete this tutorial, you will need the following:
 * Create a cloudant database
 * You can close the console now.
 
-## Run the application locally:
+## Run the application locally
 - Update the src/resources/application.yml file with the Cloudant credential:
 
     ```
@@ -113,7 +113,7 @@ If the POST request returns HTTP response 200 - OK, means the document is succes
 
 To query the account that you just inserted use url http://localhost:8080/micro/account?accountId=14402
 
-Next Steps for you to try (no instruction available):
+## Next Steps for you to try
 
 * Create a new git repository and push your source code to a newly created git repository
 * Create/Configure a devOps toolchain in IBM Cloud to pull the source code from your git repository and build & deploy the application on either on to cloud foundry or kubernetes cluster.
