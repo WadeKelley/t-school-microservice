@@ -18,8 +18,8 @@ To complete this tutorial, you will need the following:
 * Git client
 
 ## Git clone
-IBMer use the repo: `https://github.ibm.com/shetty/tschool-ms-assignment.git`
-Others use the repo: `https://github.com/shettygit/t-school-microservice.git`
+* IBMer use the repo: `https://github.ibm.com/shetty/tschool-ms-assignment.git`
+* Others use the repo: `https://github.com/shettygit/t-school-microservice.git`
 
 ## Provision Cloudant Database in IBM Cloud
 
