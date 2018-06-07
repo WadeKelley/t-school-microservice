@@ -43,11 +43,11 @@ To complete this tutorial, you will need the following:
 
 ## Run the application locally:
 
-- Create Cloudant database
+- Add a document into Cloudant database
 
-    Once you have cloudant setup, update the src/resources/application.yml file for the Cloudant credential:
+    Update the src/resources/application.yml file with the Cloudant credential:
 
-    ```yml
+    ```
     # Cloudant Configuration
     cloudant:
         db: accountdb
